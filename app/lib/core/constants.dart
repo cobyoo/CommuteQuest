@@ -1,6 +1,6 @@
 class ApiConstants {
-  static const String baseUrl = 'http://localhost:8000/api/v1';
-  static const String health = 'http://localhost:8000/health';
+  static const String baseUrl = 'https://overflowing-purpose-production-af24.up.railway.app/api/v1';
+  static const String health = 'https://overflowing-purpose-production-af24.up.railway.app/health';
 }
 
 class GameConstants {
