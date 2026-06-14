@@ -60,7 +60,7 @@ class DungeonCard extends StatelessWidget {
                 width: 48,
                 height: 48,
                 decoration: BoxDecoration(
-                  color: _gradeColor.withOpacity(0.2),
+                  color: _gradeColor.withValues(alpha: 0.2),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(Icons.directions_subway, color: _gradeColor),

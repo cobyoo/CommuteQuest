@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
               width: 120,
               height: 120,
               decoration: BoxDecoration(
-                color: Theme.of(context).primaryColor.withOpacity(0.2),
+                color: Theme.of(context).primaryColor.withValues(alpha: 0.2),
                 borderRadius: BorderRadius.circular(30),
               ),
               child: const Icon(Icons.train, size: 60, color: Colors.white),
@@ -66,7 +66,7 @@ class _SplashScreenState extends State<SplashScreen> {
               '출퇴근을 모험으로',
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.white.withOpacity(0.7),
+                color: Colors.white.withValues(alpha: 0.7),
               ),
             ),
             const SizedBox(height: 48),
