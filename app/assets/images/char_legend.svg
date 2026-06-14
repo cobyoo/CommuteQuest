@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Legend: Glowing legendary figure with cape/aura, transcendent -->
+
+  <!-- Outer legendary aura (rainbow shimmer) -->
+  <rect x="4" y="2" width="56" height="60" fill="#aa66ff" opacity="0.07"/>
+  <rect x="6" y="3" width="52" height="58" fill="#ff88ff" opacity="0.06"/>
+  <rect x="8" y="4" width="48" height="56" fill="#ffaa44" opacity="0.07"/>
+
+  <!-- Aura particles -->
+  <rect x="6" y="10" width="2" height="2" fill="#ffcc00" opacity="0.6"/>
+  <rect x="10" y="4" width="2" height="2" fill="#ff88ff" opacity="0.7"/>
+  <rect x="56" y="8" width="2" height="2" fill="#88ffff" opacity="0.6"/>
+  <rect x="52" y="14" width="2" height="2" fill="#ffcc00" opacity="0.5"/>
+  <rect x="4" y="22" width="2" height="2" fill="#ff88aa" opacity="0.6"/>
+  <rect x="58" y="28" width="2" height="2" fill="#aaffaa" opacity="0.6"/>
+  <rect x="8" y="40" width="2" height="2" fill="#88aaff" opacity="0.5"/>
+  <rect x="54" y="44" width="2" height="2" fill="#ffaa44" opacity="0.5"/>
+  <rect x="14" y="52" width="2" height="2" fill="#ff88ff" opacity="0.4"/>
+  <rect x="48" y="55" width="2" height="2" fill="#88ffff" opacity="0.4"/>
+  <rect x="6" y="32" width="1" height="1" fill="#ffffff" opacity="0.8"/>
+  <rect x="57" y="18" width="1" height="1" fill="#ffffff" opacity="0.8"/>
+  <rect x="12" y="16" width="1" height="1" fill="#ffff88" opacity="0.9"/>
+  <rect x="51" y="36" width="1" height="1" fill="#ffff88" opacity="0.9"/>
+
+  <!-- Cape (flowing, magical) -->
+  <!-- Cape top connection -->
+  <rect x="18" y="27" width="7" height="3" fill="#6600cc"/>
+  <rect x="39" y="27" width="7" height="3" fill="#6600cc"/>
+  <!-- Cape body -->
+  <rect x="13" y="28" width="12" height="22" fill="#7700ee"/>
+  <rect x="39" y="28" width="12" height="22" fill="#7700ee"/>
+  <!-- Cape inner (lighter) -->
+  <rect x="14" y="29" width="10" height="20" fill="#8811ff"/>
+  <rect x="40" y="29" width="10" height="20" fill="#8811ff"/>
+  <!-- Cape shimmer -->
+  <rect x="15" y="30" width="3" height="16" fill="#aa44ff" opacity="0.6"/>
+  <rect x="41" y="30" width="3" height="16" fill="#aa44ff" opacity="0.6"/>
+  <!-- Cape gold trim -->
+  <rect x="13" y="28" width="1" height="22" fill="#ffcc00"/>
+  <rect x="50" y="28" width="1" height="22" fill="#ffcc00"/>
+  <rect x="13" y="49" width="12" height="1" fill="#ffcc00"/>
+  <rect x="39" y="49" width="12" height="1" fill="#ffcc00"/>
+  <!-- Cape bottom wave (pixel) -->
+  <rect x="13" y="50" width="3" height="2" fill="#6600cc"/>
+  <rect x="19" y="50" width="3" height="2" fill="#6600cc"/>
+  <rect x="25" y="49" width="3" height="3" fill="#6600cc"/>
+  <rect x="39" y="49" width="3" height="3" fill="#6600cc"/>
+  <rect x="45" y="50" width="3" height="2" fill="#6600cc"/>
+  <rect x="50" y="50" width="2" height="2" fill="#6600cc"/>
+
+  <!-- Shadow (glowing, ethereal) -->
+  <ellipse cx="32" cy="62" rx="13" ry="2" fill="#8800ff" opacity="0.3"/>
+
+  <!-- Legs / Transcendent white trousers -->
+  <rect x="25" y="46" width="6" height="9" fill="#eeeeee"/>
+  <rect x="33" y="46" width="6" height="9" fill="#eeeeee"/>
+  <!-- Gold trouser stripe -->
+  <rect x="27" y="46" width="2" height="9" fill="#ffcc00" opacity="0.7"/>
+  <rect x="35" y="46" width="2" height="9" fill="#ffcc00" opacity="0.7"/>
+
+  <!-- Legendary boots (gold-tipped) -->
+  <rect x="22" y="54" width="10" height="5" fill="#222222"/>
+  <rect x="32" y="54" width="10" height="5" fill="#222222"/>
+  <rect x="22" y="54" width="10" height="2" fill="#ffcc00"/>
+  <rect x="32" y="54" width="10" height="2" fill="#ffcc00"/>
+  <!-- Boot shine -->
+  <rect x="23" y="56" width="5" height="2" fill="#333333"/>
+  <rect x="33" y="56" width="5" height="2" fill="#333333"/>
+
+  <!-- Body / Legendary white suit -->
+  <rect x="20" y="25" width="24" height="22" fill="#f0f0ff"/>
+  <!-- White suit sheen -->
+  <rect x="20" y="25" width="24" height="3" fill="#ffffff"/>
+  <!-- Gold lapels -->
+  <rect x="20" y="25" width="9" height="15" fill="#ffcc44" opacity="0.8"/>
+  <rect x="35" y="25" width="9" height="15" fill="#ffcc44" opacity="0.8"/>
+  <!-- Brilliant white shirt -->
+  <rect x="29" y="25" width="6" height="14" fill="#ffffff"/>
+
+  <!-- Legendary golden tie -->
+  <rect x="30" y="24" width="4" height="16" fill="#ffaa00"/>
+  <rect x="29" y="24" width="6" height="4" fill="#ffcc00"/>
+  <rect x="31" y="36" width="2" height="4" fill="#cc8800"/>
+  <!-- Tie glow -->
+  <rect x="30" y="25" width="4" height="14" fill="#ffee88" opacity="0.3"/>
+
+  <!-- Star medal on chest -->
+  <rect x="21" y="28" width="7" height="7" fill="#ffcc00"/>
+  <rect x="23" y="26" width="3" height="11" fill="#ffcc00"/>
+  <rect x="20" y="29" width="9" height="3" fill="#ffcc00"/>
+  <rect x="22" y="27" width="5" height="7" fill="#ffee44"/>
+  <rect x="24" y="30" width="1" height="1" fill="#ffffff"/>
+  <!-- Medal ribbon -->
+  <rect x="23" y="24" width="3" height="3" fill="#ff2222"/>
+  <rect x="22" y="24" width="2" height="3" fill="#ff4444"/>
+
+  <!-- Glowing arm aura -->
+  <rect x="11" y="26" width="10" height="17" fill="#6600cc"/>
+  <rect x="43" y="26" width="10" height="17" fill="#6600cc"/>
+  <!-- Arm glow line -->
+  <rect x="11" y="26" width="1" height="17" fill="#aa44ff" opacity="0.8"/>
+  <rect x="52" y="26" width="1" height="17" fill="#aa44ff" opacity="0.8"/>
+  <!-- Hands (glowing) -->
+  <rect x="11" y="43" width="9" height="5" fill="#ffe8c8"/>
+  <rect x="44" y="43" width="9" height="5" fill="#ffe8c8"/>
+  <!-- Hand aura -->
+  <rect x="10" y="43" width="11" height="5" fill="#aa44ff" opacity="0.2"/>
+  <rect x="43" y="43" width="11" height="5" fill="#aa44ff" opacity="0.2"/>
+
+  <!-- Neck -->
+  <rect x="29" y="20" width="6" height="6" fill="#ffe8c8"/>
+
+  <!-- Head -->
+  <rect x="19" y="7" width="26" height="15" fill="#ffe8c8"/>
+  <!-- Head glow -->
+  <rect x="18" y="6" width="28" height="17" fill="#ffcc00" opacity="0.08"/>
+
+  <!-- LEGENDARY HAIR (crown-like, silver-white with gold tips) -->
+  <!-- Main crown spike center -->
+  <rect x="29" y="0" width="6" height="7" fill="#ffffff"/>
+  <rect x="30" y="0" width="4" height="5" fill="#ffffaa"/>
+  <!-- Left spikes -->
+  <rect x="23" y="1" width="4" height="6" fill="#eeeeee"/>
+  <rect x="18" y="3" width="4" height="5" fill="#dddddd"/>
+  <rect x="24" y="0" width="2" height="4" fill="#ffffff"/>
+  <!-- Right spikes -->
+  <rect x="37" y="1" width="4" height="6" fill="#eeeeee"/>
+  <rect x="42" y="3" width="4" height="5" fill="#dddddd"/>
+  <rect x="38" y="0" width="2" height="4" fill="#ffffff"/>
+  <!-- Hair base -->
+  <rect x="19" y="5" width="26" height="5" fill="#e8e8e8"/>
+  <rect x="17" y="7" width="6" height="5" fill="#e8e8e8"/>
+  <rect x="41" y="7" width="6" height="5" fill="#e8e8e8"/>
+  <!-- Gold tips on spikes -->
+  <rect x="29" y="0" width="6" height="2" fill="#ffcc00"/>
+  <rect x="23" y="1" width="4" height="2" fill="#ffcc00"/>
+  <rect x="37" y="1" width="4" height="2" fill="#ffcc00"/>
+  <rect x="18" y="3" width="4" height="2" fill="#ffcc00"/>
+  <rect x="42" y="3" width="4" height="2" fill="#ffcc00"/>
+
+  <!-- Eyes (glowing, legendary purple) -->
+  <rect x="23" y="13" width="7" height="5" fill="#ffffff"/>
+  <rect x="34" y="13" width="7" height="5" fill="#ffffff"/>
+  <rect x="24" y="14" width="5" height="3" fill="#6600cc"/>
+  <rect x="35" y="14" width="5" height="3" fill="#6600cc"/>
+  <!-- Eye glow -->
+  <rect x="23" y="13" width="7" height="5" fill="#aa44ff" opacity="0.25"/>
+  <rect x="34" y="13" width="7" height="5" fill="#aa44ff" opacity="0.25"/>
+  <rect x="24" y="14" width="2" height="1" fill="#ffffff"/>
+  <rect x="35" y="14" width="2" height="1" fill="#ffffff"/>
+  <!-- Inner pupil shine -->
+  <rect x="26" y="15" width="1" height="1" fill="#ff88ff"/>
+  <rect x="37" y="15" width="1" height="1" fill="#ff88ff"/>
+
+  <!-- Legendary brows (golden) -->
+  <rect x="22" y="12" width="8" height="2" fill="#ccaa00"/>
+  <rect x="34" y="12" width="8" height="2" fill="#ccaa00"/>
+
+  <!-- Expression (serene, legendary smile) -->
+  <rect x="26" y="19" width="12" height="2" fill="#c8a080"/>
+  <rect x="26" y="18" width="3" height="2" fill="#c8a080"/>
+  <rect x="35" y="18" width="3" height="2" fill="#c8a080"/>
+  <!-- Teeth glint -->
+  <rect x="28" y="19" width="8" height="1" fill="#ffffff"/>
+
+  <!-- Aura halo above head -->
+  <rect x="22" y="3" width="20" height="2" fill="#ffcc00" opacity="0.4"/>
+  <rect x="20" y="4" width="24" height="1" fill="#ffaa00" opacity="0.3"/>
+</svg>
