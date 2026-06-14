@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 
-from api.routes import auth, characters, commute, dungeons, guilds, rankings, achievements
+from api.routes import auth, characters, commute, dungeons, guilds, rankings, achievements, equipments
 from core.config import settings
 from models.database import init_db, async_session
 from services.seed_achievements import seed_achievements
+from services.seed_equipments import seed_equipments
 
 
 @asynccontextmanager
@@ -12,6 +13,7 @@ async def lifespan(app: FastAPI):
     await init_db()
     async with async_session() as db:
         await seed_achievements(db)
+        await seed_equipments(db)
     yield
 
 
@@ -29,6 +31,7 @@ app.include_router(dungeons.router, prefix="/api/v1/dungeons", tags=["던전"])
 app.include_router(guilds.router, prefix="/api/v1/guilds", tags=["길드"])
 app.include_router(rankings.router, prefix="/api/v1/rankings", tags=["랭킹"])
 app.include_router(achievements.router, prefix="/api/v1/achievements", tags=["업적"])
+app.include_router(equipments.router, prefix="/api/v1/equipments", tags=["장비"])
 
 
 @app.get("/health")
