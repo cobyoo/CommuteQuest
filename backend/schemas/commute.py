@@ -12,6 +12,15 @@ class CommuteEndRequest(BaseModel):
     arrived_at: datetime
 
 
+class AchievementUnlocked(BaseModel):
+    code: str
+    name: str
+    description: str
+    icon: str
+    reward_exp: int
+    reward_title: str | None = None
+
+
 class CommuteResultResponse(BaseModel):
     commute_minutes: int
     dungeon_grade: str
@@ -22,3 +31,4 @@ class CommuteResultResponse(BaseModel):
     new_level: int
     job_promoted: bool
     new_job: str | None = None
+    achievements_unlocked: list[AchievementUnlocked] = []

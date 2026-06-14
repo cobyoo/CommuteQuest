@@ -15,6 +15,7 @@ from models.database import get_db
 from models.character import Character, CommuteLog
 from models.user import User
 from schemas.commute import CommuteStartRequest, CommuteEndRequest, CommuteResultResponse
+from services.achievement_service import check_achievements
 
 router = APIRouter()
 
@@ -90,6 +91,9 @@ async def end_commute(
     db.add(log)
     await db.commit()
 
+    # 업적 체크
+    new_achievements = await check_achievements(db, character)
+
     return CommuteResultResponse(
         commute_minutes=commute_minutes,
         dungeon_grade=dungeon_grade.value,
@@ -100,4 +104,5 @@ async def end_commute(
         new_level=character.level,
         job_promoted=job_promoted,
         new_job=new_job.value if job_promoted else None,
+        achievements_unlocked=new_achievements,
     )
