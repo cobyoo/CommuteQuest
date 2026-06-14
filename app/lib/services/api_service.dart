@@ -110,4 +110,80 @@ class ApiService {
     }
     throw Exception('랭킹 조회 실패');
   }
+
+  // Achievements
+  Future<Map<String, dynamic>> getAchievements() async {
+    final response = await http.get(
+      Uri.parse('${ApiConstants.baseUrl}/achievements/'),
+      headers: _headers,
+    );
+    if (response.statusCode == 200) {
+      return jsonDecode(response.body);
+    }
+    throw Exception('업적 조회 실패');
+  }
+
+  // Equipment - Shop
+  Future<List<Map<String, dynamic>>> getShop() async {
+    final response = await http.get(
+      Uri.parse('${ApiConstants.baseUrl}/equipments/shop'),
+      headers: _headers,
+    );
+    if (response.statusCode == 200) {
+      final data = jsonDecode(response.body);
+      return List<Map<String, dynamic>>.from(data['items']);
+    }
+    throw Exception('상점 조회 실패');
+  }
+
+  // Equipment - Inventory
+  Future<List<Map<String, dynamic>>> getInventory() async {
+    final response = await http.get(
+      Uri.parse('${ApiConstants.baseUrl}/equipments/inventory'),
+      headers: _headers,
+    );
+    if (response.statusCode == 200) {
+      final data = jsonDecode(response.body);
+      return List<Map<String, dynamic>>.from(data['inventory']);
+    }
+    throw Exception('인벤토리 조회 실패');
+  }
+
+  // Equipment - Buy
+  Future<Map<String, dynamic>> buyEquipment(String code) async {
+    final response = await http.post(
+      Uri.parse('${ApiConstants.baseUrl}/equipments/buy/$code'),
+      headers: _headers,
+    );
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200) {
+      return data;
+    }
+    throw Exception(data['detail']);
+  }
+
+  // Equipment - Equip
+  Future<Map<String, dynamic>> equipItem(String code) async {
+    final response = await http.post(
+      Uri.parse('${ApiConstants.baseUrl}/equipments/equip/$code'),
+      headers: _headers,
+    );
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200) {
+      return data;
+    }
+    throw Exception(data['detail']);
+  }
+
+  // Equipment - Unequip
+  Future<void> unequipItem(String code) async {
+    final response = await http.post(
+      Uri.parse('${ApiConstants.baseUrl}/equipments/unequip/$code'),
+      headers: _headers,
+    );
+    if (response.statusCode != 200) {
+      final data = jsonDecode(response.body);
+      throw Exception(data['detail']);
+    }
+  }
 }
