@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from api.routes import auth, characters, commute, dungeons, guilds, rankings, achievements, equipments
+from api.routes import auth, characters, commute, dungeons, guilds, rankings, achievements, equipments, skills
 from core.config import settings
 from models.database import init_db, async_session
 from services.seed_achievements import seed_achievements
@@ -41,6 +41,7 @@ app.include_router(guilds.router, prefix="/api/v1/guilds", tags=["길드"])
 app.include_router(rankings.router, prefix="/api/v1/rankings", tags=["랭킹"])
 app.include_router(achievements.router, prefix="/api/v1/achievements", tags=["업적"])
 app.include_router(equipments.router, prefix="/api/v1/equipments", tags=["장비"])
+app.include_router(skills.router, prefix="/api/v1/skills", tags=["스킬"])
 
 
 @app.get("/health")

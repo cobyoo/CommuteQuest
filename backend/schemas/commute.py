@@ -21,6 +21,13 @@ class AchievementUnlocked(BaseModel):
     reward_title: str | None = None
 
 
+class RandomEvent(BaseModel):
+    name: str
+    description: str
+    icon: str
+    type: str  # positive, negative, special
+
+
 class CommuteResultResponse(BaseModel):
     commute_minutes: int
     dungeon_grade: str
@@ -32,3 +39,4 @@ class CommuteResultResponse(BaseModel):
     job_promoted: bool
     new_job: str | None = None
     achievements_unlocked: list[AchievementUnlocked] = []
+    random_event: RandomEvent | None = None

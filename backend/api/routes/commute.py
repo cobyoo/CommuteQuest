@@ -15,6 +15,7 @@ from models.database import get_db
 from models.character import Character, CommuteLog
 from models.user import User
 from schemas.commute import CommuteStartRequest, CommuteEndRequest, CommuteResultResponse
+from core.random_events import roll_random_event
 from services.achievement_service import check_achievements
 
 router = APIRouter()
@@ -88,6 +89,29 @@ async def end_commute(
         started_at=req.arrived_at,  # placeholder
         arrived_at=req.arrived_at,
     )
+    # 랜덤 이벤트 발생
+    event = roll_random_event(luck=character.luck)
+    event_data = None
+    if event:
+        effect = event["effect"]
+        if "exp_bonus" in effect:
+            exp_earned += effect["exp_bonus"]
+            character.total_exp += effect["exp_bonus"]
+        if "hp_recovery" in effect:
+            character.hp = min(character.hp + effect["hp_recovery"], character.max_hp)
+        if "hp_damage" in effect:
+            character.hp = max(0, character.hp - effect["hp_damage"])
+        if "mp_recovery" in effect:
+            character.mp = min(character.mp + effect["mp_recovery"], 100)
+        if "mp_damage" in effect:
+            character.mp = max(0, character.mp - effect["mp_damage"])
+        event_data = {
+            "name": event["name"],
+            "description": event["description"],
+            "icon": event["icon"],
+            "type": event["type"],
+        }
+
     db.add(log)
     await db.commit()
 
@@ -105,4 +129,5 @@ async def end_commute(
         job_promoted=job_promoted,
         new_job=new_job.value if job_promoted else None,
         achievements_unlocked=new_achievements,
+        random_event=event_data,
     )
