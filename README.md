@@ -4,7 +4,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](./LICENSE)
 
 ## 컨셉
 
@@ -129,7 +129,10 @@ flutter run
 
 ## 라이선스
 
-MIT License — 자유롭게 사용하세요.
+Copyright (c) 2026 cobyoo. All Rights Reserved.
+
+이 소프트웨어는 독점 라이선스입니다. 무단 복제, 수정, 배포를 금합니다.
+라이선스 문의: GitHub Issues 또는 직접 연락
 
 ---
 
