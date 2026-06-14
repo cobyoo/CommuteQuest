@@ -5,7 +5,7 @@ import '../../core/constants.dart';
 import '../../providers/auth_provider.dart';
 import '../../providers/commute_provider.dart';
 import '../../widgets/dungeon_card.dart';
-import 'route_map_screen.dart';
+import 'game_commute_screen.dart';
 
 class CommuteScreen extends StatelessWidget {
   const CommuteScreen({super.key});
@@ -111,13 +111,12 @@ class CommuteScreen extends StatelessWidget {
     final targetArrival = DateTime.now().add(const Duration(hours: 1));
     commute.startCommute(api, grade, targetArrival);
 
-    // 노선도 화면으로 이동
+    // 게임 화면으로 이동
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => RouteMapScreen(
+        builder: (_) => GameCommuteScreen(
           dungeonGrade: grade,
-          jobClass: 'intern',
           characterName: '용사',
         ),
       ),
