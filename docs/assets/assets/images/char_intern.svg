@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Intern: Young, casual hoodie, backpack, nervous look -->
+
+  <!-- Shadow -->
+  <ellipse cx="32" cy="61" rx="10" ry="2" fill="#00000033"/>
+
+  <!-- Backpack (behind body) -->
+  <rect x="38" y="24" width="7" height="10" fill="#4a7c59"/>
+  <rect x="39" y="22" width="5" height="3" fill="#3d6b4a"/>
+  <rect x="39" y="26" width="5" height="1" fill="#5a9c6a"/>
+  <rect x="39" y="29" width="5" height="1" fill="#5a9c6a"/>
+
+  <!-- Legs -->
+  <rect x="26" y="46" width="5" height="10" fill="#5b8dd9"/>
+  <rect x="33" y="46" width="5" height="10" fill="#5b8dd9"/>
+  <!-- Jeans highlight -->
+  <rect x="27" y="47" width="2" height="4" fill="#6fa0e8"/>
+  <rect x="34" y="47" width="2" height="4" fill="#6fa0e8"/>
+
+  <!-- Shoes -->
+  <rect x="25" y="55" width="7" height="4" fill="#222222"/>
+  <rect x="32" y="55" width="7" height="4" fill="#222222"/>
+  <rect x="25" y="55" width="7" height="1" fill="#444444"/>
+  <rect x="32" y="55" width="7" height="1" fill="#444444"/>
+
+  <!-- Body / Hoodie -->
+  <rect x="24" y="30" width="16" height="17" fill="#7b68ee"/>
+  <!-- Hoodie center pocket -->
+  <rect x="28" y="38" width="8" height="5" fill="#6a58d0"/>
+  <rect x="29" y="39" width="6" height="3" fill="#5a48c0"/>
+  <!-- Hoodie details -->
+  <rect x="24" y="30" width="16" height="2" fill="#8a78ff"/>
+  <rect x="24" y="30" width="2" height="17" fill="#8a78ff"/>
+
+  <!-- Arms -->
+  <rect x="18" y="31" width="6" height="5" fill="#7b68ee"/>
+  <rect x="42" y="31" width="6" height="5" fill="#7b68ee"/>
+  <!-- Hands -->
+  <rect x="18" y="36" width="5" height="4" fill="#f5c5a0"/>
+  <rect x="42" y="36" width="5" height="4" fill="#f5c5a0"/>
+
+  <!-- Neck -->
+  <rect x="29" y="26" width="6" height="5" fill="#f5c5a0"/>
+
+  <!-- Head -->
+  <rect x="22" y="12" width="20" height="16" fill="#f5c5a0"/>
+  <!-- Hair (messy) -->
+  <rect x="22" y="10" width="20" height="5" fill="#4a3728"/>
+  <rect x="20" y="12" width="4" height="4" fill="#4a3728"/>
+  <rect x="40" y="12" width="4" height="4" fill="#4a3728"/>
+  <rect x="22" y="9" width="8" height="3" fill="#5a4738"/>
+  <rect x="34" y="8" width="6" height="4" fill="#5a4738"/>
+
+  <!-- Eyes (nervous/wide) -->
+  <rect x="26" y="18" width="4" height="4" fill="#ffffff"/>
+  <rect x="34" y="18" width="4" height="4" fill="#ffffff"/>
+  <rect x="27" y="19" width="2" height="2" fill="#3a2a1a"/>
+  <rect x="35" y="19" width="2" height="2" fill="#3a2a1a"/>
+  <!-- Eye shine -->
+  <rect x="27" y="19" width="1" height="1" fill="#ffffff"/>
+  <rect x="35" y="19" width="1" height="1" fill="#ffffff"/>
+
+  <!-- Sweat drop (nervous) -->
+  <rect x="42" y="16" width="2" height="3" fill="#88ccff"/>
+  <rect x="43" y="15" width="1" height="1" fill="#88ccff"/>
+
+  <!-- Mouth (nervous small) -->
+  <rect x="29" y="24" width="6" height="1" fill="#c09070"/>
+  <rect x="29" y="25" width="2" height="1" fill="#c09070"/>
+  <rect x="33" y="25" width="2" height="1" fill="#c09070"/>
+
+  <!-- Blush cheeks -->
+  <rect x="23" y="22" width="3" height="2" fill="#ffaaaa" opacity="0.6"/>
+  <rect x="38" y="22" width="3" height="2" fill="#ffaaaa" opacity="0.6"/>
+
+  <!-- "INTERN" badge on hoodie -->
+  <rect x="25" y="33" width="8" height="4" fill="#ffffff"/>
+  <rect x="26" y="34" width="6" height="2" fill="#7b68ee"/>
+</svg>

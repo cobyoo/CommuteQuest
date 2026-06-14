@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Staff: Business casual, holding coffee cup -->
+
+  <!-- Shadow -->
+  <ellipse cx="32" cy="61" rx="10" ry="2" fill="#00000033"/>
+
+  <!-- Legs / Chinos -->
+  <rect x="26" y="46" width="5" height="10" fill="#8b7355"/>
+  <rect x="33" y="46" width="5" height="10" fill="#8b7355"/>
+  <rect x="27" y="47" width="2" height="4" fill="#9e8465"/>
+
+  <!-- Shoes -->
+  <rect x="24" y="55" width="8" height="4" fill="#3a2a1a"/>
+  <rect x="32" y="55" width="8" height="4" fill="#3a2a1a"/>
+  <rect x="24" y="55" width="8" height="1" fill="#5a4a3a"/>
+  <rect x="32" y="55" width="8" height="1" fill="#5a4a3a"/>
+
+  <!-- Body / Business casual shirt -->
+  <rect x="24" y="30" width="16" height="17" fill="#e8e8e8"/>
+  <!-- Shirt placket -->
+  <rect x="31" y="30" width="2" height="17" fill="#d0d0d0"/>
+  <!-- Shirt buttons -->
+  <rect x="31" y="33" width="2" height="1" fill="#aaaaaa"/>
+  <rect x="31" y="37" width="2" height="1" fill="#aaaaaa"/>
+  <rect x="31" y="41" width="2" height="1" fill="#aaaaaa"/>
+  <!-- Collar -->
+  <rect x="27" y="30" width="10" height="3" fill="#e8e8e8"/>
+  <rect x="27" y="30" width="5" height="3" fill="#d8d8d8"/>
+
+  <!-- Belt -->
+  <rect x="24" y="45" width="16" height="2" fill="#4a3a2a"/>
+  <rect x="30" y="45" width="4" height="2" fill="#8a7a5a"/>
+
+  <!-- Left arm (down) -->
+  <rect x="18" y="31" width="6" height="12" fill="#e8e8e8"/>
+  <!-- Right arm (holding coffee) -->
+  <rect x="42" y="31" width="6" height="9" fill="#e8e8e8"/>
+
+  <!-- Left hand -->
+  <rect x="18" y="43" width="5" height="4" fill="#f5c5a0"/>
+  <!-- Right hand holding coffee -->
+  <rect x="42" y="40" width="5" height="4" fill="#f5c5a0"/>
+
+  <!-- Coffee cup -->
+  <rect x="44" y="34" width="7" height="9" fill="#f5f5f5"/>
+  <rect x="44" y="34" width="7" height="2" fill="#cc6633"/>
+  <rect x="43" y="36" width="9" height="7" fill="#f0ece8"/>
+  <rect x="44" y="36" width="7" height="7" fill="#ffffff"/>
+  <!-- Coffee cup sleeve -->
+  <rect x="43" y="37" width="9" height="4" fill="#cc6633"/>
+  <rect x="44" y="38" width="7" height="2" fill="#aa4422"/>
+  <!-- Steam -->
+  <rect x="46" y="31" width="1" height="3" fill="#cccccc" opacity="0.7"/>
+  <rect x="48" y="30" width="1" height="3" fill="#cccccc" opacity="0.7"/>
+  <rect x="50" y="31" width="1" height="2" fill="#cccccc" opacity="0.7"/>
+  <!-- Cup handle -->
+  <rect x="51" y="38" width="2" height="4" fill="#dddddd"/>
+  <rect x="50" y="39" width="1" height="2" fill="#dddddd"/>
+
+  <!-- Neck -->
+  <rect x="29" y="26" width="6" height="5" fill="#f5c5a0"/>
+
+  <!-- Head -->
+  <rect x="22" y="12" width="20" height="16" fill="#f5c5a0"/>
+
+  <!-- Hair (neat, parted) -->
+  <rect x="22" y="10" width="20" height="4" fill="#2a1a0a"/>
+  <rect x="20" y="12" width="4" height="3" fill="#2a1a0a"/>
+  <rect x="22" y="10" width="12" height="3" fill="#3a2a1a"/>
+  <!-- Part line -->
+  <rect x="33" y="10" width="1" height="4" fill="#4a3a2a"/>
+
+  <!-- Eyes (friendly, confident) -->
+  <rect x="26" y="18" width="4" height="3" fill="#ffffff"/>
+  <rect x="34" y="18" width="4" height="3" fill="#ffffff"/>
+  <rect x="27" y="19" width="2" height="2" fill="#3a2a1a"/>
+  <rect x="35" y="19" width="2" height="2" fill="#3a2a1a"/>
+  <rect x="27" y="19" width="1" height="1" fill="#ffffff"/>
+  <rect x="35" y="19" width="1" height="1" fill="#ffffff"/>
+
+  <!-- Smile -->
+  <rect x="28" y="24" width="8" height="1" fill="#c09070"/>
+  <rect x="27" y="23" width="2" height="1" fill="#c09070"/>
+  <rect x="35" y="23" width="2" height="1" fill="#c09070"/>
+
+  <!-- ID Badge lanyard -->
+  <rect x="30" y="28" width="4" height="7" fill="#2288ff" opacity="0.8"/>
+  <rect x="29" y="33" width="6" height="4" fill="#ffffff"/>
+  <rect x="30" y="34" width="4" height="2" fill="#2288ff"/>
+</svg>

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Manager: Full suit, badge, authoritative pose (hands on hips) -->
+
+  <!-- Shadow -->
+  <ellipse cx="32" cy="61" rx="11" ry="2" fill="#00000044"/>
+
+  <!-- Legs / Tailored trousers -->
+  <rect x="25" y="46" width="6" height="10" fill="#222244"/>
+  <rect x="33" y="46" width="6" height="10" fill="#222244"/>
+  <rect x="26" y="47" width="2" height="6" fill="#2a2a55"/>
+
+  <!-- Dress shoes (polished) -->
+  <rect x="22" y="55" width="10" height="4" fill="#080808"/>
+  <rect x="32" y="55" width="10" height="4" fill="#080808"/>
+  <rect x="22" y="55" width="10" height="1" fill="#2a2a2a"/>
+  <rect x="32" y="55" width="10" height="1" fill="#2a2a2a"/>
+  <rect x="23" y="56" width="4" height="2" fill="#181818"/>
+  <rect x="33" y="56" width="4" height="2" fill="#181818"/>
+
+  <!-- Body / Sharp suit -->
+  <rect x="21" y="28" width="22" height="19" fill="#222244"/>
+  <!-- Lapels (wide, authoritative) -->
+  <rect x="21" y="28" width="8" height="13" fill="#1a1a38"/>
+  <rect x="35" y="28" width="8" height="13" fill="#1a1a38"/>
+  <!-- Shirt -->
+  <rect x="29" y="28" width="6" height="11" fill="#f5f5f5"/>
+  <!-- Jacket buttons (double breasted effect) -->
+  <rect x="28" y="38" width="2" height="1" fill="#ccaa44"/>
+  <rect x="28" y="41" width="2" height="1" fill="#ccaa44"/>
+  <rect x="34" y="38" width="2" height="1" fill="#ccaa44"/>
+  <rect x="34" y="41" width="2" height="1" fill="#ccaa44"/>
+  <!-- Breast pocket -->
+  <rect x="22" y="30" width="5" height="4" fill="#1a1a38"/>
+  <rect x="23" y="29" width="3" height="2" fill="#f5f5f5"/>
+
+  <!-- Power tie (dark gold) -->
+  <rect x="30" y="27" width="4" height="13" fill="#ccaa00"/>
+  <rect x="29" y="27" width="6" height="3" fill="#ddbb11"/>
+  <rect x="31" y="36" width="2" height="4" fill="#aa8800"/>
+  <!-- Tie clip -->
+  <rect x="29" y="34" width="6" height="1" fill="#aaaaaa"/>
+
+  <!-- Arms (hands on hips - wide stance) -->
+  <rect x="13" y="29" width="8" height="12" fill="#222244"/>
+  <rect x="43" y="29" width="8" height="12" fill="#222244"/>
+  <!-- Elbows out -->
+  <rect x="12" y="35" width="9" height="5" fill="#222244"/>
+  <rect x="43" y="35" width="9" height="5" fill="#222244"/>
+  <!-- Hands on hips -->
+  <rect x="12" y="40" width="8" height="4" fill="#e8b890"/>
+  <rect x="44" y="40" width="8" height="4" fill="#e8b890"/>
+  <!-- Cuffs -->
+  <rect x="12" y="39" width="8" height="2" fill="#f5f5f5"/>
+  <rect x="44" y="39" width="8" height="2" fill="#f5f5f5"/>
+  <!-- Cufflinks -->
+  <rect x="19" y="39" width="2" height="2" fill="#ccaa44"/>
+  <rect x="43" y="39" width="2" height="2" fill="#ccaa44"/>
+
+  <!-- Manager badge on lapel -->
+  <rect x="35" y="31" width="7" height="5" fill="#0044cc"/>
+  <rect x="36" y="32" width="5" height="3" fill="#0055ee"/>
+  <rect x="36" y="32" width="5" height="1" fill="#ffffff" opacity="0.6"/>
+  <!-- Badge clip -->
+  <rect x="37" y="30" width="3" height="2" fill="#888888"/>
+
+  <!-- Neck -->
+  <rect x="29" y="23" width="6" height="6" fill="#e8b890"/>
+
+  <!-- Head (square jaw, powerful) -->
+  <rect x="20" y="10" width="24" height="15" fill="#e8b890"/>
+  <!-- Slight jaw definition -->
+  <rect x="20" y="22" width="5" height="3" fill="#d8a880"/>
+  <rect x="39" y="22" width="5" height="3" fill="#d8a880"/>
+
+  <!-- Hair (neat, executive cut) -->
+  <rect x="20" y="8" width="24" height="4" fill="#0a0a0a"/>
+  <rect x="18" y="10" width="5" height="4" fill="#0a0a0a"/>
+  <rect x="41" y="10" width="5" height="4" fill="#0a0a0a"/>
+  <!-- Perfect part -->
+  <rect x="31" y="8" width="2" height="4" fill="#1a1a1a"/>
+
+  <!-- Eyes (piercing, stern) -->
+  <rect x="24" y="16" width="6" height="4" fill="#ffffff"/>
+  <rect x="34" y="16" width="6" height="4" fill="#ffffff"/>
+  <rect x="25" y="17" width="4" height="2" fill="#0a0a4a"/>
+  <rect x="35" y="17" width="4" height="2" fill="#0a0a4a"/>
+  <rect x="25" y="17" width="1" height="1" fill="#ffffff"/>
+  <rect x="35" y="17" width="1" height="1" fill="#ffffff"/>
+  <!-- Strong brows -->
+  <rect x="24" y="15" width="6" height="2" fill="#0a0a0a"/>
+  <rect x="34" y="15" width="6" height="2" fill="#0a0a0a"/>
+
+  <!-- Authority expression (slight frown/serious) -->
+  <rect x="28" y="22" width="8" height="1" fill="#b08060"/>
+  <rect x="27" y="22" width="2" height="1" fill="#b08060"/>
+  <rect x="35" y="22" width="2" height="1" fill="#b08060"/>
+
+  <!-- Small authority aura glow (subtle) -->
+  <rect x="18" y="8" width="28" height="2" fill="#4444aa" opacity="0.2"/>
+</svg>
