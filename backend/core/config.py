@@ -8,6 +8,14 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = "postgresql+asyncpg://postgres:password@localhost:5432/commutequest"
 
+    @property
+    def async_database_url(self) -> str:
+        """Railway provides postgresql:// but asyncpg needs postgresql+asyncpg://"""
+        url = self.DATABASE_URL
+        if url.startswith("postgresql://"):
+            url = url.replace("postgresql://", "postgresql+asyncpg://", 1)
+        return url
+
     # Redis
     REDIS_URL: str = "redis://localhost:6379"
 
